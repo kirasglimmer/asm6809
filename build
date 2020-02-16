@@ -1,0 +1,15 @@
+#!/bin/bash
+
+sudo apt update
+sudo apt install -y \
+	autotools-dev \
+	automake
+
+./autogen.sh
+
+./configure
+
+make
+
+sudo make install
+
