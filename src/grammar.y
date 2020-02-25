@@ -63,7 +63,7 @@ static void check_end_opcode(struct prog_line *line);
 %token DELIM
 %token DEC2 INC2
 
-%destructor { free($$); } <as_string>
+//%destructor { free($$); } <as_string>
 
 %type <as_node> label
 %type <as_node> id string
