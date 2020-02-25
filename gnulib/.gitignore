@@ -10,3 +10,5 @@
 /sys/types.h
 /unistd.h
 /wchar.h
+/getopt-cdefs.h
+/getopt.h
