@@ -1,0 +1,13 @@
+#!/bin/sh
+
+brew install autoconf
+brew install automake
+
+./autogen
+
+./configure
+
+make
+
+sudo make install
+
